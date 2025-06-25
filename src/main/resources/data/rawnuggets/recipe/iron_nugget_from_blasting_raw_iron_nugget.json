@@ -3,9 +3,9 @@
   "category": "misc",
   "cookingtime": 20,
   "experience": 0.7,
-  "group": "copper_nugget",
-  "ingredient": "rawnuggets:raw_copper_nugget",
+  "group": "iron_nugget",
+  "ingredient": "rawnuggets:raw_iron_nugget",
   "result": {
-    "id": "rawnuggets:copper_nugget"
+    "id": "minecraft:iron_nugget"
   }
 }
