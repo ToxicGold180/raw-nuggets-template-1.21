@@ -2,6 +2,7 @@ package net.toxicgold180.rawnuggets;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.toxicgold180.rawnuggets.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -11,6 +12,6 @@ public class RawNuggets implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
+		ModItems.registerModItems();
 	}
 }
