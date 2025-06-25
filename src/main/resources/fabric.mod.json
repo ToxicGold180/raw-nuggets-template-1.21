@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "rawnuggets",
+	"version": "${version}",
+	"name": "Raw Nuggets",
+	"description": "Adds nuggets of raw ore.",
+	"authors": [
+		"ToxicGold180",
+		"Kaupenjoe"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/ToxicGold180/raw-nuggets-template-1.21"
+	},
+	"license": "MIT",
+	"icon": "assets/rawnuggets/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.toxicgold180.rawnuggets.RawNuggets"
+		],
+		"fabric-datagen": [
+			"net.toxicgold180.rawnuggets.RawNuggetsDataGenerator"
+		],
+		"client": [
+			"net.toxicgold180.rawnuggets.RawNuggetsClient"
+		]
+	},
+	"mixins": [
+		"rawnuggets.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
